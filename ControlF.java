@@ -12,6 +12,9 @@ public class ControlF{
         else if (rainLevel < 1){
             System.out.println("The rain volume is very low");
             }
+        else if (rainLevel >10){
+            System.out.println("The rain Volume is very High");
+            }
         else {
             System.out.println("The volume is very high");
             }
